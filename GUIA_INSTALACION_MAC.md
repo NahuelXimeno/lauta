@@ -4,18 +4,15 @@ Esta guía te explica paso a paso cómo llevar este proyecto a tu **Mac**, compi
 
 ---
 
-## 📦 Paso 1: Qué archivos pasar a tu Mac
+## 📦 Paso 1: Clonar el proyecto en tu Mac
 
-En tu computadora actual (Windows), comprime o copia la carpeta `plugin` en un pendrive o envíala por AirDrop / Drive / red.
+Como ya creaste y subiste el proyecto a GitHub, en tu **Mac** no tienes que pasar nada por pendrive. Solo abre la **Terminal** y clónalo directamente:
 
-> **💡 Consejo importante:**  
-> No hace falta copiar la carpeta `build/` (esa contiene los archivos compilados de Windows).  
-> Solo necesitas copiar:
-> - `CMakeLists.txt`
-> - La carpeta `Source/`
-> - La carpeta `external/` (contiene JUCE)
-> - La carpeta `Tests/`
-> - `README.md`
+```bash
+git clone https://github.com/NahuelXimeno/lauta.git
+cd lauta
+```
+*(CMake descargará e integrará automáticamente JUCE durante la configuración, así que no tienes que preocuparte por nada).*
 
 ---
 
